@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:o;
+    .bahianita-regular {
+      font-family: "Bahianita", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(home\ 2.png); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img {
+    width:150px;
+  }
+    .nav-links{
+        flex:1;
+        text-align:right;
+    }
+    .nav-links ul li{
+        list-style:none;
+        display:inline-block;
+        padding: 8px 12px;
+        position:relative;
+    }
+    .nav-links ul li a{
+        color:#800000 ;
+        text-decoration:none;
+        font: size 20px;;
+
+    }
+    .nav-links ul li::after{
+      content: '';
+      width: 0%;
+      height:2px;
+      background: #2A0001;
+      display:block;
+      margin:auto;
+      transition:0.5s;
+    }
+    .nav-links ul li:hover::after{
+      width:100%;
+    }
+
+      
+  
